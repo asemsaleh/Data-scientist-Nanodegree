@@ -3,8 +3,8 @@
 
 In this project I was intrested to analyze stackoverflow survey in order to apply the  "Cross-Industry Standard Process for Data Mining (CRISP-DM)" process.
 Data is shared for everyone and can be accessed from :
-(Stackoverflow Survey)
-[https://www.kaggle.com/stackoverflow/so-survey-2017]
+[Stackoverflow Survey]
+(https://www.kaggle.com/stackoverflow/so-survey-2017)
 
 I used Stack Overflow data from 2017 to answer the following questions:
 
