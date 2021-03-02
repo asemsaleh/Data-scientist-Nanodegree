@@ -7,9 +7,9 @@ Data is shared for everyone and can be accessed from :
 
 I used Stack Overflow data from 2017 to answer the following questions:
 
--Is there an equality  of salary and working hours across males and females?
--Which programming language has the highest job satisfaction?
--Where is the most countries that developers working from home?
+.Is there an equality  of salary and working hours across males and females?
+.Which programming language has the highest job satisfaction?
+.Where is the most countries that developers working from home?
 
 Results
 -Females and males are almost equal from salary and working hours side.
