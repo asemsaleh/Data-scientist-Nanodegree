@@ -1,4 +1,11 @@
 # Exploring Stackoverflow Survey 2017
+## Installation 
+* Data used can be found here [Stackoverflow Survey](https://www.kaggle.com/stackoverflow/so-survey-2017)
+* Libraries used:
+- pandas
+- matplotlib
+- numpy
+- seaborn
 ## Project Motivation
 
 In this project I was intrested to analyze stackoverflow survey in order to apply the  "Cross-Industry Standard Process for Data Mining (CRISP-DM)" process.
