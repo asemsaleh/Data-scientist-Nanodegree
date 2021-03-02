@@ -1,5 +1,7 @@
-# Data-scientist-Nanodegree
-In this project we analyzed a stackoverflow survey in order to apply the  "Cross-Industry Standard Process for Data Mining (CRISP-DM)" process.
+# Exploring Stackoverflow Survey 2019
+##Project Motivation
+
+In this project I was intrested to analyze stackoverflow survey in order to apply the  "Cross-Industry Standard Process for Data Mining (CRISP-DM)" process.
 Data is shared for everyone and can be accessed from :
 https://www.kaggle.com/stackoverflow/so-survey-2017
 
