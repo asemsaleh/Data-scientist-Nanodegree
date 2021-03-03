@@ -10,10 +10,9 @@
 
 In this project I was intrested to analyze stackoverflow survey in order to apply the  "Cross-Industry Standard Process for Data Mining (CRISP-DM)" process.
 Data is shared for everyone and can be accessed from :
-[Stackoverflow Survey](https://www.kaggle.com/stackoverflow/so-survey-2017)
-
-I used Stack Overflow data from 2017 to answer the following questions:
+The anlysis file holds the python code that used to analyze data and derive answers for question.
 # Questions
+I was intrested to know the answers for the following questions:
 * Is there an equality  of salary and working hours across males and females?
 * Which programming language has the highest job satisfaction?
 * Where is the most countries that developers working from home?
