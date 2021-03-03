@@ -8,7 +8,7 @@
 - seaborn
 ## Project Motivation
 
-In this project I was intrested to analyze stackoverflow survey in order to apply the  "Cross-Industry Standard Process for Data Mining (CRISP-DM)" process.
+In this project I was interested to analyze stackoverflow survey in order to apply the  "Cross-Industry Standard Process for Data Mining (CRISP-DM)" process.
 Data is shared for everyone and can be accessed from :
 The anlysis file holds the python code that used to analyze data and derive answers for question.
 # Questions
