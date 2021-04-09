@@ -2,6 +2,13 @@
 In this project, the task is to analyze disaster data from Figure Eight to build a model for an API that classifies disaster messages. The data set contains real messages that were sent during disaster events. A machine learning pipeline is created to categorize these events so that one can send the messages to an appropriate disaster relief agency.
 
 The project also includes a web app where an emergency worker can input a new message and get classification results in several categories.
+### Install
+This project requires Python 3.x and the following Python libraries installed:
+NumPy, Pandas, Matplotlib, Json
+Plotly, Nltk, Flask, Sklearn
+Sqlalchemy, Sys, Re, Pickle
+### Code and data
+* asasas
 ### Instructions
 Run the following commands in the project's root directory to set up your database and model.
 
