@@ -3,9 +3,24 @@ import pandas as pd
 from sqlalchemy import create_engine
 import numpy as np
 
+def convert_categories_to_num(categories):
+    '''
+    INPUT: categories dataframe
+    OUTPUT: converted data to binary
+    This function convert each category to binary 0 or 1
+    '''
+    categories = categories['categories'].str.split(';',expand=True)
+    row = categories.iloc[[1]].values[0]
+    categories.columns = [ x.split("-")[0] for x in row]
+    for col in categories:
+
+        categories[col] = categories[col].map(
+            lambda x: 1 if int(x.split("-")[1]) > 0 else 0 )
+    return categories
+        
 def load_data(messages_filepath, categories_filepath):
     messages = pd.read_csv(messages_filepath)
-    categories = pd.read_csv(categories_filepath)
+    categories = convert_categories_to_num(pd.read_csv(categories_filepath))
     df = pd.merge(messages, categories, on='id', how='outer')
     return df
 
@@ -29,7 +44,7 @@ def clean_data(df):
 
 def save_data(df, database_filename):
     engine = create_engine('sqlite:///'+ database_filename)
-    df.to_sql('messages', engine, index=False)  
+    df.to_sql('messages', engine, index=False,if_exists = 'replace')  
 
 
 def main():
